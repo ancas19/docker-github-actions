@@ -28,7 +28,7 @@ jobs:
         docker build -t ancas19/docker-graphql:0.0.1 .
     - name: Push Docker image
       run: |
-        docker push ancas19/docker-graphql:0.0.1  .
+        docker push ancas19/docker-graphql:0.0.1 .
 
 
     
